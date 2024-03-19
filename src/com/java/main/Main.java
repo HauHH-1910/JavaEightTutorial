@@ -1,4 +1,4 @@
-package MainController;
+package com.java.main;
 
 import java.util.ArrayList;
 import java.util.Collections;
