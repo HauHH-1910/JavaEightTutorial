@@ -1,3 +1,4 @@
+package MainController;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -26,26 +27,21 @@ public class Main {
         - Optional - Emphasis on best practices to handle null values properly
         - Nashorn ,JavaScript Engine − A Java-based engine to execute JavaScript code.
      */
+    private static Main main = new Main();
+
     public static void main(String[] args) {
         List<String> firstList = new ArrayList<>();
-        firstList.add("Hoang");
-        firstList.add("Hai");
-        firstList.add("Hau");
-        firstList.add("Nguyen");
-        firstList.add("Thi");
-        firstList.add("Thanh");
-        firstList.add("Ngoc");
+        firstList.add("Cow");
+        firstList.add("Dog");
+        firstList.add("Cat");
+        firstList.add("Fish");
 
         List<String> secondList = new ArrayList<>();
-        secondList.add("Hoang");
-        secondList.add("Hai");
-        secondList.add("Hau");
-        secondList.add("Nguyen");
-        secondList.add("Thi");
-        secondList.add("Thanh");
-        secondList.add("Ngoc");
+        secondList.add("Cow");
+        secondList.add("Dog");
+        secondList.add("Cat");
+        secondList.add("Fish");
 
-        Main main = new Main();
         System.out.println("Sort using Java 7 syntax: ");
         main.sortUsingJava7(firstList);
         System.out.println(firstList);
